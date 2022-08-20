@@ -1,0 +1,40 @@
+{
+    "order_id": "123QWE",
+    "writer": {
+        "paper": "Essays, Thesis, Research Papers",
+        "city": "Toronto",
+        "state": "Canada"
+        
+    },
+    "items": [
+        {
+        "paper": "Term Paper",
+        "category": "Sciences",
+        "price": 1,
+        "currency": "Dollar",
+        "tax": 0.025,
+        "number of pages": 2
+        },
+        {
+        "paper": "Research Paper",
+        "category": "Technicals",
+        "price": 2,
+        "currency": "Dollar",
+        "tax": 0.025,
+        "number of pages": 6
+        },
+        {
+        "paper": "Thesis Paper",
+        "category": "Humanities",
+        "price": 32,
+        "currency": "Dollar",
+        "tax": 0.025,
+        "number of pages": 6
+        }
+        ],
+        "user": {
+        "paper": "Research Paper",
+            "id": "0987658"
+        },
+    "createdAt": "2022-08-20T18:12:15.870Z"
+}

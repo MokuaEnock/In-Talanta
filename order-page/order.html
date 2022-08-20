@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="/order-page/assets/styles/styles.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title id="main">Order Summary</title>
+    <link rel="stylesheet" href="/order-page/assets/styles/styles.css">
+	
+    
+
+</head>
+<body >
+	<header>
+		<div class="container-fluid">
+		    <nav class="navbar navbar-light navbar-expand-lg">
+		  	    <a href="#" class="navbar-brand textdec">Enter Number of Pages</a>
+		  	    <button class="navbar-toggler d-lg-none d-md-none pull-right " type="button" data-toggle="collapse" data-target="#navbarNav "aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          		<span class="navbar-toggler-icon"></span>
+        	    </button>
+          
+
+        	<div class="collapse navbar-collapse" id="navbarNav">
+          		<ul class="navbar-nav">
+            		<li class="nav-item">
+              			<a class="nav-link" href="#"> Give Your Instructions To Professional Writers </a>
+            		</li>
+            		<li class="nav-item">
+              			<a class="nav-link" href="#">Processing Orders </a>
+            		</li>
+            		<li class="nav-item">
+              			<a class="nav-link" href="#">Order Summary </a>
+            		</li>
+          		</ul>
+        	</div>
+		  </nav>
+		</div>
+	</header>
+
+	<div >
+		
+		<section id="processing order">
+			<div class="jumbotron jumbotron-fluid " id ="jumbprop">
+  				<h2 class="display-4 divfont">Writers Details</h2>
+  					<hr class="my-4">
+  						<ul class="list-group list-group-flush">
+  							<li class="list-group-item">
+  								<ul class="list-group list-group-horizontal-sm">
+  									<li class="list-group-item"> Name : </li>
+  									<li class="list-group-item" id="resname"></li>
+								</ul>
+								<ul class="list-group list-group-horizontal-sm">
+  									<li class="list-group-item">Number of Reviews : </li>
+  									<li class="list-group-item" id="Number of Reviews"></li>
+								</ul>
+								
+  							</li>
+						</ul>
+			</div>
+		</section>
+		<section id="rest">
+			<div class="jumbotron jumbotron-fluid " id ="jumbprop">
+  				<h2 class="display-4 divfont">Processing order</h2>
+  					<hr class="my-4">
+  						<ul class="list-group list-group-flush">
+  							<li class="list-group-item">
+  								<ul class="list-group list-group-horizontal-sm">
+  									<li class="list-group-item" > User Name : </li>
+  									<li class="list-group-item" id="uname"> </li>
+  									<li class="list-group-item" > Id : </li>
+  									<li class="list-group-item" id="iname"> Id : </li>
+								</ul>
+								<ul class="list-group list-group-horizontal-sm">
+  									<li class="list-group-item"> Paper
+  										<ul class="list-group list-group-flush">
+  									  		<li class="list-group-item" id="ia"></li>
+  									  		<li class="list-group-item" id="ib"></li>
+  									  		<li class="list-group-item" id="ic"></li>
+								</ul>
+  									<li class="list-group-item" > Category 
+  									<ul class="list-group list-group-flush">
+  									  		<li class="list-group-item" id="ca"></li>
+  									  		<li class="list-group-item " id="cb"></li>
+  									  		<li class="list-group-item" id="cc"></li>
+  									  		</li>
+								</ul>
+  									<li class="list-group-item"> Price 
+  									<ul class="list-group list-group-flush">
+  									  		<li class="list-group-item" id="pa"></li>
+  									  		<li class="list-group-item" id="pb"></li>
+  									  		<li class="list-group-item" id="pc"></li>
+  									  		</li>
+								</ul>
+  									<li class="list-group-item"> Currency 
+  									<ul class="list-group list-group-flush">
+  									  		<li class="list-group-item" id="cua"></li>
+  									  		<li class="list-group-item" id="cub"></li>
+  									  		<li class="list-group-item" id="cuc"></li>
+  									  		</li>
+								</ul>
+  									<li class="list-group-item"> Tax 
+  									<ul class="list-group list-group-flush">
+  									  		<li class="list-group-item" id="ta"></li>
+  									  		<li class="list-group-item" id="tb"></li>
+  									  		<li class="list-group-item" id="tc"></li>
+  									  		</li>
+								</ul>
+								</ul>
+								
+  							</li>
+						</ul>
+						<button type="button" class="btn btn-info" onclick="addMore">Click For more Items In Processing order</button>
+			</div>
+		</section>
+		<section id="ordersum">
+			<div class="jumbotron jumbotron-fluid " id ="jumbprop">
+  				<h2 class="display-4 divfont">Order Summary</h2>
+  					<hr class="my-4">
+  						<ul class="list-group list-group-flush">
+  							<li class="list-group-item">
+  								<ul class="list-group list-group-horizontal-sm">
+  									<li class="list-group-item"> Order Id : </li>
+  									<li class="list-group-item" id="od"></li>
+								</ul>
+  								<ul class="list-group list-group-horizontal-sm">
+  									<li class="list-group-item"> Total : </li>
+  									<li class="list-group-item" id="Total"></li>
+								</ul>
+								<ul class="list-group list-group-horizontal-sm">
+  									<li class="list-group-item"> Dated : </li>
+  									<li class="list-group-item" id="date"></li>
+								</ul>
+								<ul class="list-group list-group-horizontal-sm">
+  									<li class="list-group-item"> Time : </li>
+  									<li class="list-group-item" id="time"></li>
+								</ul>
+								
+  							</li>
+						</ul>
+			</div>
+		</section>
+		<section class="end text-center" ><p >Thanks For Ordering</p></section>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>
