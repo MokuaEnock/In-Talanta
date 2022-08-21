@@ -7,22 +7,28 @@
     <title>Document</title>
     <link rel="stylesheet" href="/order-page/assets/styles/styles.css" />
   </head>
+
   <body>
     <header></header>
 
     <main>
       <form>
         <section id="section1">
+          <h2>Place Your Order</h2>
           <div class="name">
-            <label for="fName">First Name</label>
-            <input type="text" required id="fName" />
-            <label for="lName">Second Name</label>
-            <input type="text" required id="lName" />
+            <div class="first-name">
+              <label for="fName">First Name</label>
+              <input type="text" required id="fName" />
+            </div>
+            <div class="last-name">
+              <label for="lName">Second Name</label>
+              <input type="text" required id="lName" />
+            </div>
           </div>
 
           <div class="email">
             <label for="email">Email Address</label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" required />
           </div>
 
           <div id="upload">
@@ -34,9 +40,6 @@
             <label for="instruction"
               >Please provide additional instructions</label
             >
-          </div>
-
-          <div class="upload">
             <textarea
               name="instruction"
               id="instruction"
@@ -52,9 +55,7 @@
             <a href="#">Payoneer</a>
           </div>
 
-          <div id="basket">
-
-          </div>
+          <div id="basket"></div>
         </section>
         <section id="section2">
           <div></div>

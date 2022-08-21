@@ -28,12 +28,46 @@ main>form {
     align-items: center;
 }
 
+/* scetion 1 */
 #section1 {
     width: 70%;
     height: 100%;
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.8vw;
 }
 
+#section1>div {
+    border: solid thin black;
+    width: 100%;
+
+}
+
+.name {
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.name>div {
+    width: 30%;
+    height: 100%;
+    border: thin solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name>div>input {
+    width: 100%;
+    height: 50%;
+}
+
+/* section 2 */
 #section2 {
     width: 30%;
     height: 100%;
@@ -67,6 +101,5 @@ footer {
     width: 100%;
     height: 3vw;
     background-color: rgb(46, 139, 87, .6);
-
 
 }
