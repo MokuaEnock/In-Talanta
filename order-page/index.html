@@ -5,14 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/order-page/assets/styles/styles.css">
+    <link rel="stylesheet" href="/order-page/assets/styles/styles.css" />
   </head>
   <body>
     <header></header>
 
     <main>
       <form>
-        <section id="section1"></section>
+        <section id="section1">
+          <div class="name">
+            <label for="fName">First Name</label>
+            <input type="text" required id="fName" />
+
+            <label for="lName">Second Name</label>
+            <input type="text" required id="lName" />
+          </div>
+
+          <div class="email">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div>
+            <input type="file" id="myfile" name="filename" />
+            <input type="Upload document." />
+          </div>
+
+          <div class="upload">
+            <label for="instruction"
+              >Please provide additional instructions</label
+            >
+          </div>
+
+          <div class="upload">
+            <textarea
+              name="instruction"
+              id="instruction"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div id="payment">
+            <a href="#">Visa</a>
+            <a href="#">Mastercard</a>
+            <a href="#">Paypal</a>
+            <a href="#">Payoneer</a>
+          </div>
+        </section>
         <section id="section2">
           <div></div>
           <div id="button_cont">
