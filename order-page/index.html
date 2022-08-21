@@ -5,19 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/order-page/assets/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/order-page/assets/styles/styles.css" />
   </head>
+
   <body>
     <header></header>
 
     <main>
       <form>
-        <section id="section1"></section>
+        <section id="section1">
+          <h2>Place Your Order.</h2>
+          <div class="name">
+            <div class="first-name">
+              <label for="fName">First Name</label>
+              <input type="text" required id="fName" />
+            </div>
+            
+            <div class="last-name">
+              <label for="lName">Second Name</label>
+              <input type="text" required id="lName" />
+            </div>
+          </div>
+
+          <div class="email">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+
+          <div id="upload">
+            <input type="file" id="myfile" name="filename" />
+          </div>
+
+          <div class="instructions">
+            <label for="instruction"
+              >Please provide additional instructions</label
+            >
+            <textarea
+              name="instruction"
+              id="instruction"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div class="payment">
+            <a href="#">Visa</a>
+            <a href="#">Mastercard</a>
+            <a href="#">Paypal</a>
+            <a href="#">Payoneer</a>
+          </div>
+
+          <div id="basket"></div>
+        </section>
         <section id="section2">
           <div></div>
           <div id="button_cont">
-            <button type="reset">Reset</button>
-            <button type="submit">Submit</button>
+            <button id="submit" type="submit">Place Order</button>
           </div>
         </section>
       </form>
