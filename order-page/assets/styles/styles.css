@@ -33,10 +33,11 @@ main>form {
 #section1 {
     width: 70%;
     height: 100%;
-    background-color: whitesmoke;
+    background-color: #e9ffdb;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     font-size: 1.8vw;
 }
 
@@ -46,12 +47,8 @@ main>form {
     text-decoration: underline;
 }
 
-#section1>div {
-    width: 100%;
-}
-
-
 .name {
+    width: 100%;
     height: 12%;
     display: flex;
     flex-direction: row;
@@ -82,12 +79,14 @@ main>form {
     text-align: center;
 }
 
-.first-name label, .last-name label {
-    color: white;
+.first-name label,
+.last-name label {
+    color: #e9ffdb;
 }
 
 
 .email {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -104,25 +103,30 @@ main>form {
 }
 
 #upload {
+    padding-left: 5%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     height: 10%;
     font-size: 1.8vw;
 }
 
 #upload>input {
-    width: 100%;
+    margin-top: 1%;
+    width: 40%;
     height: 100%;
     font-size: 1.8vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .instructions {
+    padding-left: 5%;
+    width: 100%;
     height: 25%;
     display: flex;
     flex-direction: column;
@@ -133,14 +137,33 @@ main>form {
 .instructions>textarea {
     width: 50%;
     height: 80%;
+    border-radius: 0.3vw;
+}
+
+.instructions>textarea:focus {
+    outline: thin solid #2e8b57;
 }
 
 .payment {
-    height: 8%;
+    width: 70%;
+    height: 12%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.payment>a {
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment>a>img {
+    height: 100%;
 }
 
 /* section 2 */
