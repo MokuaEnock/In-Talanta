@@ -165,7 +165,7 @@ header > div {
   align-items: center;
 }
 
-#s4_header {
+.s4_header {
   width: 100%;
   height: 40%;
   display: flex;
@@ -174,7 +174,7 @@ header > div {
   align-items: flex-start;
 }
 
-#s4_header > div {
+.s4_header > div {
   width: 60%;
   height: 100%;
   background-color: #1c3f3a;
@@ -186,7 +186,7 @@ header > div {
   align-items: flex-end;
 }
 
-#s4_header > div > img {
+.s4_header > div > img {
   width: 80%;
   height: 100%;
   display: flex;
@@ -196,21 +196,21 @@ header > div {
   padding-top: 2%;
 }
 
-#s4_body {
+.s4_body {
   height: 60%;
   width: 85%;
 }
 
-#s4_body > h3 {
+.s4_body > h3 {
   font-size: 2vw;
   text-align: left;
 }
 
-#s4_body  strong {
+.s4_body  strong {
   text-decoration: underline;
 }
 
-#s4_body > p {
+.s4_body > p {
   font-size: 1.4vw;
   text-align: left;
   line-height: 2.1vw;
