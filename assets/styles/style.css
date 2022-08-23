@@ -52,7 +52,7 @@ header>div {
     height: 40%;
 }
 
-#h_info>a:hover{
+#h_info>a:hover {
     text-decoration: overline;
 }
 
@@ -62,7 +62,16 @@ header>div {
 
 }
 
-#h_order button{
+#h_order>a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#h_order button {
     width: 80%;
     height: 90%;
     font-size: 2.1vw;
@@ -73,10 +82,46 @@ header>div {
     background-color: white;
 }
 
-/* navigation */
-#section1{
+/* section1  */
+#section1 {
     background-color: #1c3f3a;
     height: 35vw;
     width: 99.9%;
     border-top: thin solid white;
 }
+
+
+/* section2 */
+#section2 {
+    height: 35vw;
+    width: 99.9%;
+    border-top: thin solid white;
+}
+
+/* section2 */
+
+#section3 {
+    background-color: #1c3f3a;
+    height: 35vw;
+    width: 99.9%;
+    border-top: thin solid white;
+}
+
+/* section4 */
+
+#section4 {
+    height: 35vw;
+    width: 99.9%;
+    border-top: thin solid white;
+}
+
+
+/* section5 */
+
+footer {
+    background-color: #1c3f3a;
+    height: 30vw;
+    width: 99.9%;
+    border-top: thin solid white;
+}
+
