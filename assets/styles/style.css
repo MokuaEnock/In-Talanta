@@ -110,11 +110,59 @@ header>div {
 /* section4 */
 
 #section4 {
-    height: 35vw;
+    height: 40vw;
     width: 99.9%;
     border-top: thin solid white;
 }
 
+#sect4_cont1 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sect4_cont1>div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#sect4_cont1>div>p {
+    width: 60%;
+    height: 70%;
+    font-size: 1.8vw;
+    padding-left: 2%;
+}
+
+#sect4_cont1>div>h2 {
+    width: 70%;
+    height: 70%;
+    font-size: 3.5vw;
+}
+
+#sect4_cont2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+
+}
+
+#sect4_cont2>div {
+    width: 20%;
+    height: 90%;
+    background-color: white;
+    border-radius: 0.4vw;
+    box-shadow: 0.01vw 0.01vw 1vw gray;
+}
 
 /* section5 */
 
@@ -124,4 +172,3 @@ footer {
     width: 99.9%;
     border-top: thin solid white;
 }
-
