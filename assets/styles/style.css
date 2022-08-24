@@ -83,16 +83,110 @@ header > div {
 /* section1  */
 #section1 {
   background-color: #1c3f3a;
-  height: 35vw;
+  height: 50vw;
   width: 99.9%;
   border-top: thin solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
+#sect1_cont1 {
+  width: 100%;
+  height: 72%;
+}
+
+#sect1_cont2 {
+  width: 100%;
+  height: 28%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#sect1_cont2_1 {
+  width: 8%;
+  height: 100%;
+}
+
+#sect1_cont2_2 {
+  width: 16%;
+  height: 100%;
+  background-color: #e9ffdb;
+}
+#sect1_cont2_2 > p {
+  position: relative;
+  top: 83%;
+  left: 78%;
+  font-size: 1.8vw;
+  font-weight: 800;
+}
+#sect1_cont2_3 {
+  color: #e9ffdb;
+  background-color: rgb(255, 255, 255, 0.05);
+  width: 23%;
+  height: 100%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+#sect1_cont2_3 > h2 {
+  font-size: 2vw;
+}
+
+#sect1_cont2_3 > p {
+  font-size: 1.5vw;
+}
+
+#sect1_cont2_4 {
+  width: 8%;
+  height: 100%;
+  background-color: #e9ffdb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#sect1_cont2_4 > img {
+  width: 50%;
+}
+#sect1_cont2_5 {
+  color: #e9ffdb;
+  background-color: rgb(255, 255, 255, 0.05);
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#sect1_cont2_5 > div {
+  width: 29%;
+  height: 100%;
+  font-size: 1.8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#sect1_cont2_5 > div > p {
+  font-size: 1.5vw;
+}
+#sect1_cont2_5 > div > h3 {
+  font-size: 4vw;
+  padding-top: 1%;
+}
 /* section2 */
 #section2 {
-  height: 35vw;
+  height: 70vw;
   width: 99.9%;
-  border-top: thin solid white;
 }
 
 /* section2 */
@@ -101,7 +195,6 @@ header > div {
   background-color: #1c3f3a;
   height: 35vw;
   width: 99.9%;
-  border-top: thin solid white;
 }
 
 /* section4 */
@@ -205,7 +298,7 @@ header > div {
   text-align: left;
 }
 
-.s4_body  strong {
+.s4_body strong {
   text-decoration: underline;
 }
 
