@@ -9,7 +9,7 @@
 header {
     width: 100%;
     height: 4vw;
-    background-color: rgb(46, 139, 87, .6);
+    background-color: #e9ffdb;
 }
 
 
@@ -33,7 +33,7 @@ main>form {
 #section1 {
     width: 70%;
     height: 100%;
-    background-color: #e9ffdb;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -42,7 +42,7 @@ main>form {
 }
 
 #section1 h2 {
-    color: #2e8b57;
+    color: #1c3f3a;
     text-align: center;
     text-decoration: underline;
 }
@@ -59,7 +59,7 @@ main>form {
     width: 30%;
     height: 100%;
     display: flex;
-    background-color: rgb(46, 139, 87);
+    background-color: #1c3f3a;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +70,7 @@ main>form {
 .name>div>input {
     width: 98%;
     height: 50%;
-    border: thin solid #2e8b57;
+    border: thin solid #1c3f3a;
     border-radius: .4vw;
 }
 
@@ -93,7 +93,7 @@ main>form {
     align-items: flex-start;
     padding-left: 7%;
     font-size: 1.8vw;
-    color: #2e8b57;
+    color: #1c3f3a;
     height: 12%;
 
 }
@@ -102,17 +102,17 @@ main>form {
     width: 30%;
     border-radius: 0.3vw;
     height: 50%;
-    border: thin solid #2e8b57;
+    border: thin solid #1c3f3a;
 }
 
 .email>input:focus {
-    outline: thin solid #2e8b57;
+    outline: thin solid #1c3f3a;
 }
 
 #upload {
     padding-left: 5%;
     width: 100%;
-    color: #2e8b57;
+    color: #1c3f3a;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -133,7 +133,7 @@ main>form {
 }
 
 .instructions {
-    color: #2e8b57;
+    color: #1c3f3a;
     padding-left: 5%;
     width: 100%;
     height: 25%;
@@ -150,7 +150,7 @@ main>form {
 }
 
 .instructions>textarea:focus {
-    outline: thin solid #2e8b57;
+    outline: thin solid #1c3f3a;
 }
 
 .payment {
@@ -179,7 +179,7 @@ main>form {
 #section2 {
     width: 30%;
     height: 100%;
-    background-color: #2e8b57;
+    background-color: #1c3f3a;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -199,11 +199,11 @@ main>form {
 
 #submit {
     height: 100%;
-    border: 0.6vw double #2e8b57;
+    border: 0.6vw double #1c3f3a;
     font-size: 2.5vw;
     font-weight: 400;
     color: black;
-    color: #2e8b57;
+    color: #1c3f3a;
     background-color: white;
     border-radius: 0.5vw;
     width: 70%;
@@ -221,6 +221,6 @@ main>form {
 footer {
     width: 100%;
     height: 3vw;
-    background-color: rgb(46, 139, 87, .6);
+    background-color: #e9ffdb;
 
 }
