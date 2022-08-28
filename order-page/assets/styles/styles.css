@@ -6,7 +6,7 @@
 a {
   text-decoration: none;
   color: #1c3f3a;
-  font-size: 2vw;
+  font-size: 1.6vw;
   font-size: 600;
   color: #e9ffdb;
 }
@@ -31,7 +31,7 @@ header > div {
 }
 
 #logo {
-  width: 15%;
+  width: 25%;
   height: 90%;
   font-size: 3vw;
   font-weight: 600;

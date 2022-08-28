@@ -95,8 +95,50 @@ header > div {
 #sect1_cont1 {
   width: 100%;
   height: 72%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
+#sect1_cont1_1 {
+  width: 45%;
+  height: 100%;
+  color: #e9ffdb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#sect1_cont1_1 > h2 {
+  font-size: 5vw;
+}
+
+#sect1_cont1_1 > p {
+  font-size: 2vw;
+  margin-top: 4%;
+}
+
+#sect1_cont1_1 > button {
+  margin-top: 4%;
+  width: 40%;
+  height: 12%;
+  color: #1c3f3a;
+  font-size: 2vw;
+  background-color: white;
+  border: 0.5vw double #1c3f3a;
+  border-radius: 2vw;
+}
+#sect1_cont1_2 {
+  width: 50%;
+  height: 100%;
+}
+
+#sect1_cont1_2 > img {
+  height: 100%;
+  width: 100%;
+}
 #sect1_cont2 {
   width: 100%;
   height: 28%;
@@ -109,8 +151,14 @@ header > div {
 #sect1_cont2_1 {
   width: 8%;
   height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-
+#sect1_cont2_1 >img{
+width: 50%;
+}
 #sect1_cont2_2 {
   width: 16%;
   height: 100%;
