@@ -390,8 +390,12 @@ header>div {
   align-items: center;
   width: 23%;
   height: 55%;
-  border-left: 0.5vw double;
+  border-left: 0.8vw double;
   background-color: white;
+  border-bottom-right-radius: 1vw;
+  border-top-right-radius: 1vw;
+  box-shadow: 0.0001vw 0.0001vw 1vw rgb(128, 128, 128,0.5);
+
 }
 
 .card_header {
