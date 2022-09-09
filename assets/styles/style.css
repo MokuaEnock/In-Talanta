@@ -285,7 +285,7 @@ header>div {
   background-color: #1c3f3a;
 }
 
-.cc_cont2{
+.cc_cont2 {
   width: 100%;
   height: 50%;
   background-color: #e9ffdb;
@@ -297,12 +297,12 @@ header>div {
   align-items: center;
 }
 
-.cc_cont2_1{
+.cc_cont2_1 {
   width: 100%;
   height: 75%;
 }
 
-.cc_cont2_2{
+.cc_cont2_2 {
   width: 100%;
   height: 25%;
   display: flex;
@@ -312,7 +312,7 @@ header>div {
 
 }
 
-.cc_cont2_2>button{
+.cc_cont2_2>button {
   width: 50%;
   height: 100%;
   font-size: 2vw;
@@ -324,6 +324,7 @@ header>div {
   background-color: #1c3f3a;
 
 }
+
 /* section2 */
 
 #section3 {
@@ -382,28 +383,47 @@ header>div {
   border: thin solid;
 }
 
-.best_card{
+.best_card {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   width: 23%;
   height: 55%;
-  border: thin solid;
-  border-left:0.5vw double ;
+  border-left: 0.5vw double;
   background-color: white;
 }
 
-.card_header{
+.card_header {
   width: 100%;
-  height: 50%;
-  border: thin solid;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.card_body{
+
+.card_header>img {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_body {
   width: 100%;
-  height: 50%;
-  border: thin solid;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
+
+.card_body>h4{
+  font-size: 3vw;
+}
+
 /* footer */
 footer {
   background-color: #1c3f3a;
