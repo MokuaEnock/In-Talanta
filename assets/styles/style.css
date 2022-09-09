@@ -323,17 +323,19 @@ header>div {
   color: white;
   background-color: #1c3f3a;
   cursor: pointer;
-
 }
 
 .button_view_more {
+  border-top: thin solid #1c3f3a;
+  border-right: thin solid #1c3f3a;
+  border-left: none;
+  border-bottom: none;
   width: 49%;
   height: 100%;
   font-size: 2vw;
   border-bottom-left-radius: 1vw;
   border-top-right-radius: 1vw;
   font-weight: 600;
-  border: none;
   color: #1c3f3a;
   background-color: white;
   cursor: pointer;
