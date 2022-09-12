@@ -187,3 +187,30 @@ form {
 #type_of_paper1:focus {
     outline: thin solid;
 }
+
+#topic{
+    width: 99%;
+    height: 6%;
+    margin-top: 1%;
+    border: thin solid;
+    font-size: 1.8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#topic1>label{
+    width: 25%;
+}
+
+
+#topic1{
+    width: 73%;
+    height: 100%;
+    font-size: 1.8vw;
+}
+
+#topic1:focus{
+    outline: thin solid;
+}
