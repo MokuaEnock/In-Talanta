@@ -323,6 +323,10 @@ header>div {
   color: white;
   background-color: #1c3f3a;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .button_view_more {
