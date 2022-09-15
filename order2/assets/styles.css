@@ -313,8 +313,26 @@
       align-items: center;
   }
 
-  #sources>div>span {
+  #sources>div>* {
       width: 33%;
       height: 100%;
       border: thin solid;
+  }
+
+  #minus,
+  #plus {
+      background-color: #e9ffdb;
+      font-size: 3vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+  }
+
+
+  #sources1 {
+      background-color: rgb(128, 128, 128, .2);
+      font-size: 1.8vw;
+      text-align: center;
   }
